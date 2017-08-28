@@ -15,12 +15,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(array, element) {
   endarray = [...array, element]
   return endarray
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array, element) {
   array = [...aray, element]
   return array
 }
